@@ -1,16 +1,16 @@
-# Millie Loves Treats Operational Process Document
+# {{PROJECT-FULLNAME}} Operational Process Document
 
 ```
 Note: This document is a template that needs to be customized for your Organization.
 Section notes should be deleted once customization is complete. Content in braces or italics denotes other areas for updating.
 ```
-**Draft version 1.1**
-**Published on: 2025-12-16**
+**{{DOCUMENT-STATUS}} version {{VERSION}}**
+**Published on: {{PUBLICATION-DATE}}**
 
 **Table of Contents**
 1. [Introduction](#introduction)
 2. [Governance](#governance)
-   * [MLT Organizational Structure](#project-shortname-organizational-structure)
+   * [{{PROJECT-SHORTNAME}} Organizational Structure](#project-shortname-organizational-structure)
    * [Roles & Expectations](#membership-roles--expectations)
    * [Meeting Policies](#meeting-policies)
    * [Decision-Making](#decision-making-practices-and-consensus-guidelines)
@@ -18,7 +18,7 @@ Section notes should be deleted once customization is complete. Content in brace
    * [Review and Approval Guidelines](#review-and-approval-guidelines)
    * [Roadmap and Release Planning](#roadmap-and-release-planning)
    * [Specification Development Lifecycle](#specification-development-lifecycle)
-   * [Guidelines for GitHub Workflow (optional)](#guidelines-for-platform-workflow-optional)
+   * [Guidelines for {{PLATFORM}} Workflow (optional)](#guidelines-for-platform-workflow-optional)
 4. [Publication and Collaboration Guidelines](#publication-and-collaboration-guidelines)
    * [Collaboration with other Standards Developing, Open Source, or Industry Organizations](#collaboration-with-other-standards-developing-open-source-or-industry-organizations)
    * [Notice Requirements and IPR Review Guidelines](#notice-requirements-and-ipr-policies)
@@ -28,23 +28,23 @@ Section notes should be deleted once customization is complete. Content in brace
 
 ## Introduction
 
-This Operational Process Document is a living document that outlines the core procedures, roles, and decision-making processes that guide the day-to-day activities of the Millie Loves Treats community. It is designed to promote transparency, accountability, and consistency in how the project operates, collaborates, and evolves over time.
+This Operational Process Document is a living document that outlines the core procedures, roles, and decision-making processes that guide the day-to-day activities of the {{PROJECT-FULLNAME}} community. It is designed to promote transparency, accountability, and consistency in how the project operates, collaborates, and evolves over time.
 
 Upon Approval of the Steering Committee, this document may be updated periodically to reflect the changing needs of the project and its participants. Updates should be proposed through the project’s defined decision-making process and tracked via version control.
 
 ## Governance
 
-Millie Loves Treats (MLT) is a Community Specification License project hosted by Erin Barratt Foundation. Its Governance policy is as set forth in the GOVERNANCE.md file of the Project repositories. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the terms of the Community Specification License, the Erin Barratt Foundation Technical Project Charter and Series Agreement, and any policies or procedures adopted by the Project as outlined in this Process Document.
+{{PROJECT-FULLNAME}} ({{PROJECT-SHORTNAME}}) is a Community Specification License project hosted by {{LEGAL-PARENT}}. Its Governance policy is as set forth in the GOVERNANCE.md file of the Project repositories. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the terms of the Community Specification License, the {{LEGAL-PARENT}} Technical Project Charter and Series Agreement, and any policies or procedures adopted by the Project as outlined in this Process Document.
 
-### MLT Organizational Structure
+### {{PROJECT-SHORTNAME}} Organizational Structure
 
 ```
 Note: Replace this example diagram with your own Organization organigram. 
 ```
 
 <figure>
-	<img src="images/organigram.svg" alt="MLT Organigram">
-	<figcaption>MLT Organigram</figcaption>
+	<img src="images/organigram.svg" alt="{{PROJECT-SHORTNAME}} Organigram">
+	<figcaption>{{PROJECT-SHORTNAME}} Organigram</figcaption>
 </figure>
 
 ```
@@ -76,7 +76,7 @@ The Project may have multiple Working Groups, and each Working Group will work w
 Note: This section should be updated each time a new Working or Sub-Working Group is added or removed.
 ```
 
-* MLT has the following Working Groups:
+* {{PROJECT-SHORTNAME}} has the following Working Groups:
   * Working Group Name 1
     * **Brief Description of Scope:**
     * **Link to Charter:**
@@ -98,9 +98,9 @@ Note: This section should be updated each time a new Working or Sub-Working Grou
 Note: Projects may have one or more Committees to work in areas that support the technical development. Common examples include Marketing, Budget, and Events Committees. Committees do not produce technical deliverables and participation is often used as a benefit of Membership. This section should be updated each time a new Committee is added or removed.
 ```
 
-MLT may establish one or more non-technical Committees to advance its work.
+{{PROJECT-SHORTNAME}} may establish one or more non-technical Committees to advance its work.
 
-* MLT has the following Project Committees:
+* {{PROJECT-SHORTNAME}} has the following Project Committees:
   * Committee 1
     * **Purpose of Committee/Key Responsibilities:**
     * **Link to Charter:**
@@ -118,13 +118,13 @@ MLT may establish one or more non-technical Committees to advance its work.
 
 ### Membership Roles & Expectations
 
-#### MLT Membership
+#### {{PROJECT-SHORTNAME}} Membership
 
-MLT Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the [MLT Membership Agreement]().
+{{PROJECT-SHORTNAME}} Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the [{{PROJECT-SHORTNAME}} Membership Agreement]({{MEMBERSHIP-AGREEMENT}}).
 
 Trade Associations, Industry Forums, Standards Developing or Open Source organizations, and other Membership-based organizations are not eligible for Membership and should participate under the terms of a mutually-agreed MOU. Individuals are not eligible for Membership, but may make contributions to public repositories under the terms of that repository's open source license(s) and may be permitted to provide other contributions under the terms of the Non-Member Participation Agreement in the Membership Agreement (Appendix C). 
 
-The table below summarizes the rights granted to each level for participation in the technical project, per the terms of the Project and Working Group charters. In addition to these rights, the Steering Committee may outline additional membership benefits, fees, or requirements for each level which can be found at https://example.org if applicable. 
+The table below summarizes the rights granted to each level for participation in the technical project, per the terms of the Project and Working Group charters. In addition to these rights, the Steering Committee may outline additional membership benefits, fees, or requirements for each level which can be found at {{PROJECT-URL}} if applicable. 
 
 ```
 Note: Provide a description of the expectations for each participation level *as it pertains to the technical deliverables* - refer to the Membership Agreement to confirm the correct selections for your Project.
@@ -287,7 +287,7 @@ The Steering Committee Chairperson is expected to:
 Note: The policies in this section should apply to all meetings in the organization. While the language provided describes general best practices, you can modify this section liberally to fit how your community prefers to meet.
 ```
 
-MLT Working Groups and Committees have regular and ad hoc teleconference meetings. All teleconference meetings are subject to the organization's IPR and Antitrust policies and:
+{{PROJECT-SHORTNAME}} Working Groups and Committees have regular and ad hoc teleconference meetings. All teleconference meetings are subject to the organization's IPR and Antitrust policies and:
 
 * Must be announced on the group Mailing List at least 7 days in advance and include any planned votes or notices
 * Must be published to the Project Meeting Calendar
@@ -311,7 +311,7 @@ MLT Working Groups and Committees have regular and ad hoc teleconference meeting
 * To view past or upcoming meetings, access meeting recordings or calendar invites, go to [https://openprofile.dev]()
 
 ### Decision-Making Practices and Consensus Guidelines
-MLT develops its specifications through voluntary consensus, meaning that:
+{{PROJECT-SHORTNAME}} develops its specifications through voluntary consensus, meaning that:
 
 * Participation is open to all interested stakeholders.
 * Decisions are made by consensus. Consensus means substantial agreement, absent of sustained objection, not necessarily unanimity.
@@ -319,7 +319,7 @@ MLT develops its specifications through voluntary consensus, meaning that:
 * There is a balance of interests, so no single group organization or stakeholder group dominates decision-making.
 * There is due process, including mechanisms for notices and procedural appeals. Due process means that any party with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. 
 
-[Section x.x of the Membership Agreement]() outlines the terms of decision-making. The remainder of this section is intended to provide guidance on the operational application of these terms. 
+[Section x.x of the Membership Agreement]({{MEMBERSHIP-AGREEMENT}}) outlines the terms of decision-making. The remainder of this section is intended to provide guidance on the operational application of these terms. 
 
 ```
 Note: The following sections can be tailored for your Project. For example, if your Project will do much of its development on GitHub, you may provide additional guidance for how Working Groups can use informal voting or input gathering with upvotes or emojis, or you might add additional responsibilities and expectations for Chairpersons.
@@ -506,7 +506,7 @@ If the Work Package and Release Roadmap describe what the Working Group will cre
 	<figcaption>Specification Development Lifecycle</figcaption>
 </figure>
 
-#### Draft Deliverable Development - Guidelines for [Appendix A Section 4.1]()
+#### Draft Deliverable Development - Guidelines for [Appendix A Section 4.1]({{MEMBERSHIP-AGREEMENT}})
 
 **Work Package Definition**
 In this phase, the group defines the work to be done in a given Draft deliverable - described above as a Work Package. Any Member may submit a new Work Package proposal. The proposal is discussed and refined collaboratively, after which the Working Group decides to either approve or reject it. If approved, the Work Package moves to the Development phase.
@@ -524,13 +524,13 @@ When the Specification Development stage is complete, or very near completion, t
 
 The Consistency Review period is also an appropriate time to address specification formatting comments or issues, as style or editorial guidelines have a tendency to drift during the Development phase.
 
-#### Working Group Approval - Guidelines for [Appendix A Section 4.2]()
+#### Working Group Approval - Guidelines for [Appendix A Section 4.2]({{MEMBERSHIP-AGREEMENT}})
 After the Consistency Review period concludes, the Working Group must address any comments raised during this period. When all comments have been addressed, the document(s) will be eligible to become a Working Group Approved Draft Deliverable per Section 4.1 of the Membership Agreement. 
 
-#### Final Approval - Guidelines for [Appendix A Section 4.3]()
+#### Final Approval - Guidelines for [Appendix A Section 4.3]({{MEMBERSHIP-AGREEMENT}})
 No sooner than 30 days after the the Working Group approves the document(s) as a Working Group Approved Draft Deliverable, the document(s) may be sent to the Steering Committee for Final Approval.
 
-#### Publication - Guidelines for [Appendix A Section 4.4]()
+#### Publication - Guidelines for [Appendix A Section 4.4]({{MEMBERSHIP-AGREEMENT}})
 Once the Steering Committee has approved a Final Deliverable, the document(s) will be published in the following manner: 
 
 * To publish the document(s), the Maintainer will create a new Release Tag.
@@ -539,28 +539,28 @@ Once the Steering Committee has approved a Final Deliverable, the document(s) wi
 * Any forums to collect public input or feedback on the material, such as through a release discussion in GitHub or other forum, should be created and monitored. 
 * The input collected during the Maintenance phase may be used to improve the Technical Specifications as well as to collect business requirements for future releases.
 
-### Guidelines for GitHub Workflow (optional)
+### Guidelines for {{PLATFORM}} Workflow (optional)
 ```
 Note: This section assumes that your project will leverage a git-based development methodology. Remove this section if your Project will not be using a git-based version control system for development (GitHub, Gitlab, etc). Consider amending this section to reflect any platform-specific development guidelines your project will need to ensure all Members are able to contribute and review materials in a consistent manner. 
 ```
 
 <figure>
-	<img src="images/dev-process.svg" alt="MLT Technical Specifications Development Phases">
-	<figcaption>MLT Technical Specifications Development Phases</figcaption>
+	<img src="images/dev-process.svg" alt="{{PROJECT-SHORTNAME}} Technical Specifications Development Phases">
+	<figcaption>{{PROJECT-SHORTNAME}} Technical Specifications Development Phases</figcaption>
 </figure>
 
-The project has selected GitHub to maintain its source of truth for the specification development process. The diagram below illustrates how contributions and discussions proceed through the specification development lifecycle via GitHub. It may be amended from time to time as new efficiencies or features are developed.
+The project has selected {{PLATFORM}} to maintain its source of truth for the specification development process. The diagram below illustrates how contributions and discussions proceed through the specification development lifecycle via {{PLATFORM}}. It may be amended from time to time as new efficiencies or features are developed.
 
-#### GitHub Access Rights
+#### {{PLATFORM}} Access Rights
 
-The table below outlines permission levels in GitHub based on project role. Permission exceptions may be made on a case by case basis with Approval from the Working Group or Committee. Platform access should be audited on an annual basis.
+The table below outlines permission levels in {{PLATFORM}} based on project role. Permission exceptions may be made on a case by case basis with Approval from the Working Group or Committee. Platform access should be audited on an annual basis.
 
 ```
 Note: If you have added any additional Working Group or Committee Roles in the Roles and Expectations section, add them to the table. Customize the section GitHub Teams or other features.  
 ```
 
 <table>
-  <caption>GitHub Access Rights</caption>
+  <caption>{{PLATFORM}} Access Rights</caption>
   <thead>
     <tr>
 	    <th>Role</th>
@@ -571,33 +571,33 @@ Note: If you have added any additional Working Group or Committee Roles in the R
   <tbody>
     <tr>
       <td>Working Group or Committee Participant</td>
-      <td>May be added to the GitHub and Working Group or Committee repository or team at the <i>TRIAGE</i> level.</td>
+      <td>May be added to the {{PLATFORM}} and Working Group or Committee repository or team at the <i>TRIAGE</i> level.</td>
       <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA.</td>
    </tr>
     <tr>
       <td>Working Group or Committee Chairpersons</td>
-      <td>Must be added to the GitHub and Working Group or Committee repository or team at the <i>WRITE</i> level. </td>
-      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take GitHub Training.</td>
+      <td>Must be added to the {{PLATFORM}} and Working Group or Committee repository or team at the <i>WRITE</i> level. </td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take {{PLATFORM}} Training.</td>
    </tr>
    <tr>
       <td>Editors</td>
-      <td>Must be added to the GitHub and Working Group repository or team at the <i>MAINTAIN</i> level.</td>
-      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take GitHub Training.</td>
+      <td>Must be added to the {{PLATFORM}} and Working Group repository or team at the <i>MAINTAIN</i> level.</td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take {{PLATFORM}} Training.</td>
    </tr>
       <tr>
       <td>Steering Committee Chairperson(s)</td>
-      <td>Must be added to the GitHub at the <i>ADMINISTRATOR</i> level.</td>
-      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take GitHub Training.</td>
+      <td>Must be added to the {{PLATFORM}} at the <i>ADMINISTRATOR</i> level.</td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take {{PLATFORM}} Training.</td>
    </tr>
    </tr>
       <td>Non-Members</td>
-      <td>May be added to the GitHub at the <i>READ</i> level with Approval from the Working Group.</td>
-      <td>Must enable 2FA. Must take GitHub Training.</td>
+      <td>May be added to the {{PLATFORM}} at the <i>READ</i> level with Approval from the Working Group.</td>
+      <td>Must enable 2FA. Must take {{PLATFORM}} Training.</td>
    </tr>
   </tbody>
 </table>
 
-#### GitHub Workflow Process
+#### {{PLATFORM}} Workflow Process
 
 **Semantic Versioning Guidelines**
 The project will follow [https://semver.org/]() guidelines to effectively track work and stage it for approval or advancement.
@@ -697,7 +697,7 @@ Published Source Code materials must include:
 The Project welcomes opportunities to collaborate with other Member-based organizations under the terms of a mutually agreed Memorandum of Understanding (MOU). This section defines the requirements for defining and approving an MOU. 
 
 All MOUs must:
-* Originate on the MLT's MOU template paper
+* Originate on the {{PROJECT-SHORTNAME}}'s MOU template paper
 * Include designated points of contact
 * Include the scope and goals of the collaboration
 * Indicate which specific Working Groups, Events, Meetings, or Deliverables will be involved
@@ -724,13 +724,13 @@ A Final Deliverable may be adopted for publication by a national or internationa
 The Working Group Chairperson(s) is responsible for publishing notices.
 
 #### IPR Policies
-All Working Groups must adhere to the copyright and patent policies indicated in the Working Group Charter. Questions about these specific policies or questions about incorporating linked libraries, 3rd Party Software, License compatibility, or binary distributions should be addressed by the Working Group Member Participants and Member Legal Counsel. If the Working Group is unable to arrive at an answer, the Steering Committee may address the question or seek a legal opinion on behalf of MLT.
+All Working Groups must adhere to the copyright and patent policies indicated in the Working Group Charter. Questions about these specific policies or questions about incorporating linked libraries, 3rd Party Software, License compatibility, or binary distributions should be addressed by the Working Group Member Participants and Member Legal Counsel. If the Working Group is unable to arrive at an answer, the Steering Committee may address the question or seek a legal opinion on behalf of {{PROJECT-SHORTNAME}}.
 
 Working Groups may request a change to their patent or copyright policy. All changes must be reviewed and approved by the Steering Committee, and Notice must be provided to Joint Development Foundation Projects and all Members. Depending on the nature of the changes and the status of the Working Group's deliverables, licensing changes may result in the creation of a new Working Group. 
 
-The Trademark Policy is located at https://example.org/trademark. The brand and logo usage guidelines are located at https://example.org/brand.
+The Trademark Policy is located at {{TRADEMARK-POLICY-URL}}. The brand and logo usage guidelines are located at {{BRAND-FILES}}.
 
-IPR and other Legal questions should be sent to ebarratt@linuxfoundation.org. 
+IPR and other Legal questions should be sent to {{ADMIN-CONTACT}}. 
 
 ## Additional Resources and Reference Materials
 
@@ -748,7 +748,7 @@ All Member Participants must familiarize themselves with the following materials
 The legal disclaimer to insert in each publicly published document is:
 
 ```
-© `Millie Loves Treats` {{YEAR}}, All rights reserved.
+© `{{PROJECT-FULLNAME}}` {{YEAR}}, All rights reserved.
 
 “THESE MATERIALS ARE PROVIDED “AS IS.”  The parties expressly disclaim any warranties 
 (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, 
@@ -765,7 +765,7 @@ THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 **Project Copyright Notice**
 The copyright notice to include on project deliverables is:
 
-`Copyright Contributors to Millie Loves Treats.`
+`Copyright Contributors to {{PROJECT-FULLNAME}}.`
 
 [project-calendar]: https://calendar.projectname.org
 [antitrust-training]: https://training.linuxfoundation.org/training/antitrust-laws-and-open-source-software-project-management-and-participation-lfc105/
