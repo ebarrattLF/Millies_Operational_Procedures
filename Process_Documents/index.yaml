@@ -6,14 +6,14 @@ TITLE: "Operational Template for Open Standards"
 DOCUMENT-STATUS: "Draft"
 VERSION: "0.0"
 PUBLICATION-DATE: "2022-10-26" # date the document was adopted
-PROJECT-FULLNAME: "Example Project Consortium" # the Project's full legal name
-PROJECT-SHORTNAME: "EPC" # the Project's common name
-LEGAL-PARENT: "Joint Development Foundation" # if no legal parent, enter project-fullname
+PROJECT-FULLNAME: "Millie Loves Treats" # the Project's full legal name
+PROJECT-SHORTNAME: "MLT" # the Project's common name
+LEGAL-PARENT: "Erin Barratt Foundation" # if no legal parent, enter project-fullname
 MEMBERSHIP-AGREEMENT: "" # tip: host a preview .pdf of your agreement on your website or GitHub
 PROJECT-URL: "https://example.org" # Project's official website
 PLATFORM: "GitHub" # the tool, location or platform used to develop the specification
 TRADEMARK-POLICY-URL: "https://example.org/trademark" 
 CODE-OF-CONDUCT-URL: "https://example.org/code-of-conduct"
-ADMIN-CONTACT: "admin@example.org"
+ADMIN-CONTACT: "ebarratt@linuxfoundation.org"
 BRAND-FILES: "https://example.org/brand"
 LOGO: "images/jdf-horizontal-color.svg"
